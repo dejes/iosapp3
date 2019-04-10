@@ -83,7 +83,9 @@ class ViewController: UIViewController {
                     YGC.text="Radeon RX 570 4G"
                 }
                 else if _num>4800 && _num<=6800{
-                    pic.image = UIImage(named: "580")
+                 
+                    
+            pic.image = UIImage(named: "580")
                     YGC.text="Radeon RX 580 4G"
                 }
                 else if _num>6800 && _num<7800{
